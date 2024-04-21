@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Image Captioning</title>
+    <style>
+        /* Your CSS styles here */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: url(l.jpg);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2980b9;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .image-captioning {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .image-captioning img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+        .caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .author {
+            text-align: center;
+            font-size: 14px;
+            color: #959da6;
+        }
+
+        .author a {
+            color: #4d62c7;
+            text-decoration: none;
+        }
+
+        .author a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background:url(l.jpg);
+            color: rgb(0, 0, 0);
+        }
+
+        .search-container {
+            float: right;
+        }
+
+        .search-container input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="navbar">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT</a>
+    <div class="search-container">
+        <form action="#">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <h1>About Unlocking Images</h1>
+    <br>
+    <div class="image-captioning">
+        
+    </div>
+    <p>Picture a society in which pictures communicate with you verbally and tell stories to you through handwritten words, text, and even voice. That's the idea behind the project, Unlocking Images, which aims to realize the full potential of image comprehension and communication.
+        Unlocking Images is fundamentally an interactive online platform driven by state-of-the-art artificial intelligence that  creates descriptions for images, translate captions into dozen of languages and, gives visual voice to your images.
+        <br>How it works:
+        <ul>
+         <ol>i. The model takes an image as input uploaded by the user.</ol>
+        <ol>ii. The model then analyzes the image and extracts features such as objects, colours, scenes, and activities.</ol>
+        <ol>iii. Using the extracted features, the model generates a textual caption that describes the image.</ol>
+        <ol>iv. The generated caption is presented to the user.</ol>
+        
+       
+    </ul></p>
+    
+</div>
+
+</body>
+</html>

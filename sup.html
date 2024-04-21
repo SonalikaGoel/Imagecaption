@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEW TO UNLOCKING IMAGE SIGN UP!?</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(l.jpg);
+  }
+  .form_wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  .form_container {
+    text-align: center;
+  }
+  .title_container h2 {
+    margin: 0;
+  }
+  .input_field {
+    margin-bottom: 20px;
+  }
+  .input_field input,
+  .input_field select {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  .input_field span {
+    background-color: #ccc;
+    color: #666;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  .input_field select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#666" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+  }
+  .input_field.checkbox_option label {
+    display: block;
+    margin-left: 25px;
+    position: relative;
+  }
+  .input_field.checkbox_option input[type="checkbox"] {
+    display: none;
+  }
+  .input_field.checkbox_option input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #666;
+    border-radius: 3px;
+    position: relative;
+    left: -25px;
+    top: 1px;
+  }
+  .input_field.checkbox_option input[type="checkbox"]:checked + label:before {
+    background-color: #666;
+  }
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .radio_option {
+  display: flex; /* Display flex to align items horizontally */
+  align-items: center; /* Align items vertically centered */
+}
+.radio_option input[type="radio"],
+.radio_option label {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+
+.radio_option input[type="radio"] {
+  margin-right: 5px; /* Adjust the margin between radio button and label */
+}
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .credit {
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* Add the following CSS for aligning radio options */
+  .input_field.radio_option {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+
+<div class="form_wrapper">
+  <div class="form_container">
+    <div class="title_container">
+      <h3>New to Unlocking Images?</h3>
+    <h2><b>SIGN UP</b></H2>
+        <br>
+    </div>
+    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+      <input type="email" name="email" placeholder="Email" required />
+    </div>
+    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+      <input type="password" name="password" placeholder="Password" required />
+    </div>
+    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+      <input type="password" name="password" placeholder="Re-type Password" required />
+    </div>
+    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+      <input type="text" name="name" placeholder="First Name" />
+    </div>
+    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+      <input type="text" name="name" placeholder="Last Name" required />
+    </div>
+    <!--<div class="input_field radio_option">
+      <input type="radio" name="radiogroup1" id="rd1">
+      <label for="rd1">Male</label>
+      <input type="radio" name="radiogroup1" id="rd2">
+      <label for="rd2">Female</label>
+    </div>-->
+    <br>
+    <div class="input_field select_option">
+      <select>
+        <option>Select a country</option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select>
+    </div>
+    <div class="input_field checkbox_option">
+      <input type="checkbox" id="cb1">
+      <label for="cb1">I agree with terms and conditions</label>
+    </div>
+    <div class="input_field checkbox_option">
+      <input type="checkbox" id="cb2">
+      <label for="cb2">
+        I want to receive the newsletter</label>
+</div>
+<input class="button" type="submit" value="Register" />
+
+  </div>
+</div>
+
+</body>
+</html>
